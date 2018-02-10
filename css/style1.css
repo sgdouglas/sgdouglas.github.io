@@ -1,0 +1,41 @@
+body {
+	background-color: #3d3439;
+	margin: 0 auto;
+	font-family: "Helvetica", "Arial", sans-serif;
+	line-height: 1.5;
+
+}
+
+body p {
+	color: #cdd1c4;
+}
+
+header {
+	color: #e3e0dc;
+	background-color: #44737c;
+	padding: 2em;
+	text-align: center;
+}
+
+.main {
+	display: flex;
+	width: 100%;
+}
+
+.sidebar {
+	color: #FFF;
+	order: 1;
+	flex: 1;
+	padding: 1.5em;
+}
+
+.sidebar a {
+	color: #1cc4ce;
+}
+
+.content {
+	color: #cdd1c4;
+	order: 1;
+	flex: 5;
+	padding: 1.5em;
+}
