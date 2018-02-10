@@ -20,10 +20,15 @@ header {
 .main {
 	display: flex;
 	width: 100%;
+	min-height: 888px;
+}
+
+.main h2 {
+	color: #cdd1c4;
 }
 
 .sidebar {
-	color: #FFF;
+	background-color: #000;
 	order: 1;
 	flex: 1;
 	padding: 1.5em;
@@ -32,6 +37,28 @@ header {
 .sidebar a {
 	color: #1cc4ce;
 }
+
+
+/* unvisited link */
+a:link {
+    color: #1cc4ce;
+}
+
+/* visited link */
+a:visited {
+    color: #3d3439;
+}
+
+/* mouse over link */
+a:hover {
+    color: #cdd1c4;
+}
+
+/* selected link
+a:active {
+    color: yellow;
+}*/
+
 
 .content {
 	color: #cdd1c4;
